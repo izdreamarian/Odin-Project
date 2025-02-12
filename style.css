@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #1f2937;
+  padding: 15px;
+  padding-bottom: 100px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar a {
+  color: rgb(131, 123, 123);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.navbar .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  gap: 150px;
+}
+
+.header .container {
+  max-width: 400px;
+}
+
+.header .image {
+  background-color: grey;
+  color: rgb(194, 193, 193);
+  margin-right: 100px;
+  padding: 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.header p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .button {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 30px;
+  background-color: #3882fa;
+  color: white;
+  border: 1px solid #3882fa;
+  border-radius: 8px;
+}
+
+.section .information {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.section .container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.section .box {
+  border: 4px solid #3882fa;
+  padding: 80px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.section .finalbox {
+  max-width: 150px;
+  text-align: center;
+}
